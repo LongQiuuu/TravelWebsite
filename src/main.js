@@ -1,4 +1,5 @@
-import './assets/main.css'
+//引入初始化樣式文件
+import '@/styles/common.scss'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -14,11 +15,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
-//測試接口函數
-import { getCategory } from './apis/testapi'
-getCategory().then(res=>{
-    console.log(res)
-})
+
 //bootstrap
 library.add(faPhone)
 

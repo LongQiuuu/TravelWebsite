@@ -1,9 +1,12 @@
-<template>
-    <div>
-        <!-- 一級路由主頁配置 -->
-        我是首頁
-        <!-- 二級路由分類頁面路由出口 -->
-        <RouterView></RouterView>
-    </div>
-</template>
+<script setup>
 
+import LayoutHeader from './components/LayoutHeader.vue'
+import LayoutFooter from './components/LayoutFooter.vue'
+</script>
+
+<template>
+  
+  <LayoutHeader />
+  <RouterView />
+  <LayoutFooter />
+</template>

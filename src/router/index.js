@@ -20,7 +20,7 @@ const router = createRouter({
       //添加二級路由
       children:[
         {
-          path:'home',
+          path:'',
           component: Home
         },
         {
