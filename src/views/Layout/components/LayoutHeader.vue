@@ -1,3 +1,10 @@
+<script setup>
+
+
+import HeaderCart from './HeaderCart.vue'
+</script>
+
+
 <template>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -28,7 +35,11 @@
                 <a class="nav-link mx-lg-2" href="./contact.html">聯絡我們</a>
               </li>
             </ul>
+            <div>
+            <HeaderCart></HeaderCart>
           </div>
+          </div>
+        
         </div>
         <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
